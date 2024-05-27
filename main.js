@@ -1,3 +1,9 @@
+import { tabla_periodica } from "./utils/dataTabla.js"
+import { cargarHeader } from "./components/cargarHeader/cargarHeader.js";
+import { cargarTabla } from "./components/cargarTabla/cargarTabla.js";
+import { cargarCalculadora } from "./components/cargarCalculadora/cargarCalculadora.js"
+import { cargarFooter } from "./components/cargarFooter/cargarFooter.js";
+
 let DOM = document.getElementById("root");
 
 DOM.innerHTML = `
@@ -8,8 +14,10 @@ DOM.innerHTML = `
 `;
 
 
+let tabla = tabla_periodica;
+
 /* CARGAR COMPONENTES */
 cargarHeader();
-cargarTabla();
-cargarCalculaora();
+cargarTabla(tabla);
+cargarCalculadora(tabla);
 cargarFooter();
