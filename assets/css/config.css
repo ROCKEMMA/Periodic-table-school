@@ -1,0 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#root {
+    display: grid;
+    grid-template-rows: 60px 600px 300px 200px;
+}
