@@ -1,9 +1,9 @@
-const tabla_periodica = [
+let tabla_periodica = [
     {
-
+        nombre:"dato"
     },
     {
-        
+        nombre: "dato2"
     }
 ];
 

@@ -1,4 +1,4 @@
-import { tabla_periodica } from "./utils/dataTabla.js"
+import { tabla_periodica } from "./utils/dataTabla.js";
 import { cargarHeader } from "./components/cargarHeader/cargarHeader.js";
 import { cargarTabla } from "./components/cargarTabla/cargarTabla.js";
 import { cargarCalculadora } from "./components/cargarCalculadora/cargarCalculadora.js"
@@ -15,6 +15,7 @@ DOM.innerHTML = `
 
 
 let tabla = tabla_periodica;
+console.log(tabla);
 
 /* CARGAR COMPONENTES */
 cargarHeader();
