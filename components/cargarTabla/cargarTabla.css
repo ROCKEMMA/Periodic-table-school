@@ -1,0 +1,11 @@
+#seccion-tabla {
+    width: 100%;
+    max-width: 140rem;
+    margin: 0 auto;
+    border: 1px solid black;
+
+    display: grid;
+    grid-template-columns: repeat(18,7.7rem);
+    grid-template-rows: repeat(7,7.7rem);
+    justify-content: center;
+}
