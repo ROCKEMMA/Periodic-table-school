@@ -3,7 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+html {
+    font-size: 10px;
+}
+
 #root {
     display: grid;
-    grid-template-rows: 60px 600px 300px 200px;
+    grid-template-rows: 60px 650px 300px 200px;
 }
