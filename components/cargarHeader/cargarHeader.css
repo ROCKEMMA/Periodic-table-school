@@ -5,6 +5,8 @@ body {
 }
 
 .container {
+    width: auto;
+    height: auto;
 
     background-color: white;
 
@@ -12,13 +14,12 @@ body {
 
     padding-left: 25px;
     padding-right: 25px;
-
-    width: 1920px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 
 h1 {
    width: 100px;
@@ -46,6 +47,8 @@ nav ul li a:hover {
     color: #ffc107;
 }
 
+
+
 .imagen{
 
     background-color: aqua;
@@ -54,6 +57,7 @@ nav ul li a:hover {
 
     border-radius: 1000px;
 }
-.container p{
-    text-align: center;
+.container p.titulo {
+    text-align: left;
+    justify-content: center;
 }
