@@ -84,7 +84,7 @@ const tabla_periodica = [
         electrones: 11,
         serie:'metales alcalinos',
         simbolo:'Na',
-        masa: '22.98976928(2) u',
+        masa: '22.98976928 u',
         descubridor:'Conocido desde la epoca medieval'
     },
     {
@@ -940,7 +940,7 @@ const tabla_periodica = [
         electrones: 118,
         serie:'gases nobles',
         simbolo:'Og',
-        masa: 'Peso atómico: 293',
+        masa: '293 u',
         descubridor:'Equipo de científicos de Berkeley, 1999'
     },
 ];
