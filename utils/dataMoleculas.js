@@ -277,5 +277,4 @@ const moleculas = [
     }
 ];
 
-
 export{ moleculas }

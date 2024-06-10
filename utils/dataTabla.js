@@ -450,7 +450,7 @@ const tabla_periodica = [
     {
         nombre:'Lantano',
         electrones: 57,
-        serie:'lantanidos',
+        serie:'metales de transicion',
         simbolo:'La',
         masa: '138,9055 u',
         descubridor:'1839 Carl Gustaf Mosander'
@@ -818,7 +818,7 @@ const tabla_periodica = [
     {
         nombre:'Lawrencio',
         electrones: 103,
-        serie:'actinidos',
+        serie:'metales de transicion',
         simbolo:'Lr',
         masa: '12,0107 u',
         descubridor:'1961 por el equipo de física nuclear integrado por Albert Ghiorso, Torbjørn Sikkeland, Almon Larsh, Robert M. Latimer'
@@ -898,7 +898,7 @@ const tabla_periodica = [
     {
         nombre:'Nihonio',
         electrones: 113,
-        serie:'no metales',
+        serie:'metales del bloque p',
         simbolo:'Nh',
         masa: '12,0107 u',
         descubridor:'Descubrimiento del nihonio se ha atribuido oficialmente al RIKEN Nishina Center for Accelerator-Based Science de Japón'
