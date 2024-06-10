@@ -8,13 +8,9 @@ function cargarFooter(){
         <div class="footer-container">
             <div class="footer-section">
                 <h4>Tecnologias</h4>
-                <p>Github</p>
-                <p>Phind</p>
-                <p>ChatGPT</p>
-                <p>Api's</p>
-                <p>Copilot</p>
-                <p>Gemini</p>
-                <p>Figma</p>
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>JavaScript</p>
             </div>
             <div class="footer-section">
                 <h4>Integrantes del grupo</h4>
@@ -25,11 +21,6 @@ function cargarFooter(){
                     <li><a href="#">GoDHyDrax</a></li>
                     <li><a href="#">Zethx.e</a></li>
                 </ul>
-            </div>
-            <div class="footer-section">
-                <h4>--</h4>
-                <p>---</p>
-                <p>---</p>
             </div>
             <div class="footer-section">
                 <h4>Redes sociales</h4>
