@@ -10,4 +10,5 @@ html {
 #root {
     display: grid;
     grid-template-rows: 6rem 75rem 300px 200px;
+    gap: 2rem;
 }
