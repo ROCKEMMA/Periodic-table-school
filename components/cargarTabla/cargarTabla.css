@@ -65,3 +65,124 @@
     font-size: 1em;
     grid-column: 1/3;
 }
+
+/* colores de elementos */
+
+/* no metales */
+.nometales{
+    background-color: #e96612 ;
+    transition: transform 0.3s ease-in-out, box-shadow 0.4s ease-in-out;
+    box-shadow: 0 0 0 transparent;
+}
+
+.nometales:hover {
+    transform: scale(1.25);
+    box-shadow: 0 0 30px #e96612;
+}
+
+
+
+/* meatales alcainos */
+.metalesalcalinos{
+    background-color: #00203e   ;
+    color: white;
+    transition: transform 0.3s ease-in-out, box-shadow 0.4s ease-in-out;
+    box-shadow: 0 0 0 transparent;
+
+}
+.metalesalcalinos:hover {
+    transform: scale(1.25);
+    box-shadow: 0 0 30px #00203e;
+}
+
+
+/* meatales alcalino terreo */
+
+.metalesalcalinoterreos{
+    background-color: #f9ac00;
+    transition: transform 0.3s ease-in-out, box-shadow 0.4s ease-in-out;
+    box-shadow: 0 0 0 transparent;
+}
+.metalesalcalinoterreos:hover {
+    transform: scale(1.25);
+    box-shadow: 0 0 30px #f9ac00;
+}
+
+
+
+
+/* meatales de transicion*/
+
+.metalesdetransicion{
+    background-color: #0074c4;
+    color: white;
+    transition: transform 0.3s ease-in-out, box-shadow 0.4s ease-in-out;
+    box-shadow: 0 0 0 transparent;
+
+}
+.metalesdetransicion:hover {
+    transform: scale(1.25);
+    box-shadow: 0 0 30px #0074c4;
+}
+
+
+
+
+/* metaloides */
+
+.metaloides{
+    background-color: #e00035;
+    color: white;
+    transition: transform 0.3s ease-in-out, box-shadow 0.4s ease-in-out;
+    box-shadow: 0 0 0 transparent;
+}
+.metaloides:hover {
+    transform: scale(1.25);
+    box-shadow: 0 0 30px #e00035;
+}
+
+
+/* metales del bloque p */
+.metalesdelbloquep{
+    background-color: #610e64;
+    color: white;
+    transition: transform 0.3s ease-in-out, box-shadow 0.4s ease-in-out;
+    box-shadow: 0 0 0 transparent;
+}
+.metalesdelbloquep:hover {
+    transform: scale(1.25);
+    box-shadow: 0 0 30px #610e64;
+}
+
+
+/* halogenos  */
+.halogenos{
+    background-color: #93a70f;
+    transition: transform 0.3s ease-in-out, box-shadow 0.4s ease-in-out;
+    box-shadow: 0 0 0 transparent;
+}
+.halogenos:hover {
+    transform: scale(1.25);
+    box-shadow: 0 0 30px #93a70f;
+}
+
+/* gases nobles  */
+.gasesnobles{
+    background-color: #005924;
+    color: white;
+    transition: transform 0.3s ease-in-out, box-shadow 0.4s ease-in-out;
+    box-shadow: 0 0 0 transparent;
+}
+.gasesnobles:hover {
+    transform: scale(1.25);
+    box-shadow: 0 0 30px #005924;
+}
+
+
+
+.lantanidos{
+    display: none;
+}
+.actinidos{
+    display: none;
+}

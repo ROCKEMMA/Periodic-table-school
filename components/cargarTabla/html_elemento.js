@@ -1,7 +1,16 @@
 const item_html = (elemento) => {
     // Crear el contenedor principal del elemento
     const element = document.createElement('div');
-    element.className = 'element';
+
+   /*  let categoria = elemento.serie;
+    element.className = `element ${categoria}`;
+ */
+
+    let categoria = elemento.serie.trim().replace(/\s+/g, ''); // .trim() elimina espacios iniciales y finales, y .replace() elimina espacios internos
+
+    // Asignar la clase sin espacios
+    element.className = `element ${categoria}`;
+
 
     // Crear y añadir el número atómico (electrones)
     const atomicNumberDiv = document.createElement('div');
