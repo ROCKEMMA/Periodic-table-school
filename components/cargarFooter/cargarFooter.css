@@ -5,6 +5,11 @@ body {
 }
 
 .footer {
+
+  text-align: center;
+
+  font-size: 20px;
+
   background-color: #ffffff;
   color: #000000;
   padding: 40px 0;
