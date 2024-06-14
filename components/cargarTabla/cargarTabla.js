@@ -1,3 +1,4 @@
+import { cargarInformacion } from "./cargarInformaciom.js";
 import { item_html } from "./html_elemento.js";
 
 function cargarTabla(tabla) {
@@ -18,10 +19,12 @@ function cargarTabla(tabla) {
     tabla_DOM.appendChild(div_informacion2);
     div_informacion2.className = "informacion2";
 
-
     tabla.forEach(elemento => {
         const elementHTML = item_html(elemento);
+        elementHTML.classList.add(elemento.nombre);
         tabla_DOM.appendChild(elementHTML);
+        let claseDelElemento = document.querySelector(`.${elemento.nombre}`)
+        claseDelElemento.addEventListener("click", ()=>{cargarInformacion(elemento)});
     });
 }
 
