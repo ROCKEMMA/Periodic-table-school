@@ -41,16 +41,10 @@ height: 100%;
     display: none;
         height: 100%;
         flex-direction: column;
-        grid-template-rows: 5rem 1fr;
 }
 .bloque h2{
     font-size: 2rem;
-        display: flex;
-        align-items: center;
-}
-.bloque p{
-    display: flex;
-        font-size: 2rem;
+       
 }
 .info_mol{
     height: 85%;
