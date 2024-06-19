@@ -2,14 +2,18 @@ const item_html = (elemento) => {
     // Crear el contenedor principal del elemento
     const element = document.createElement('div');
 
-   /*  let categoria = elemento.serie;
-    element.className = `element ${categoria}`;
- */
-
-    let categoria = elemento.serie.trim().replace(/\s+/g, ''); // .trim() elimina espacios iniciales y finales, y .replace() elimina espacios internos
 
     // Asignar la clase sin espacios
+    let categoria = elemento.serie.trim().replace(/\s+/g, ''); // .trim() elimina espacios iniciales y finales, y .replace() elimina espacios internos
+
     element.className = `element ${categoria}`;
+
+    //buton cambio
+    const button_agregar = document.createElement('button');
+    button_agregar.className = 'button_agregar';
+    element.appendChild(button_agregar);
+    button_agregar.innerHTML='+'
+    
 
 
     // Crear y añadir el número atómico (electrones)

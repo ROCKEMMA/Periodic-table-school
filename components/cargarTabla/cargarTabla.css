@@ -186,3 +186,21 @@
 .actinidos{
     display: none;
 }
+.button_agregar{
+    background-color: white;
+    position: absolute;
+    width: 1.6rem;
+    height: 1.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -1rem;
+    right: -1rem;
+    border-radius: 0.5rem;
+    border: 1px solid black;
+}
+.button_agregar:hover{
+
+    background-color: rgb(197, 192, 192);
+
+}
