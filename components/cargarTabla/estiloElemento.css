@@ -1,3 +1,43 @@
-.informacion{
-    color: red;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.informacion {
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 1rem;
+    border: 1px solid #007BFF;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f1f8ff;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.5s forwards;
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.estiloElemento div {
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 4px;
+    transition: background-color 0.3s, transform 0.3s;
+    background-color: #e7f3ff;
+    border-left: 4px solid #007BFF;
+}
+
+.estiloElemento div:hover {
+    background-color: #d0e7ff;
+    transform: scale(1.02);
+}
+
+.estiloElemento strong {
+    color: #0056b3;
 }
