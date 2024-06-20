@@ -1,3 +1,5 @@
+import { listaTablero } from "../../utils/listaVacia.js";
+import { item_html } from "./html_elemento.js";
 function cargarInformacion(nombreElemento) {
     let divElementoCentral = document.querySelector(".informacion");
     
@@ -26,4 +28,23 @@ function cargarInformacion(nombreElemento) {
     }
 }
 
-export { cargarInformacion };
+
+function agregarAlTablero(nombreElemento){
+        listaTablero.push(nombreElemento);
+        console.log(listaTablero);
+        actualizarMoleculaC(listaTablero)
+        
+}
+
+function actualizarMoleculaC(listaTablero){
+
+    let molecula = document.querySelector(".moleculaC");
+    molecula.innerHTML = ""
+        listaTablero.forEach(element => {
+            molecula.appendChild(item_html(element))
+            
+            
+        });
+}
+export { agregarAlTablero,  cargarInformacion}
+
