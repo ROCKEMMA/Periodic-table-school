@@ -1,4 +1,4 @@
-import { cargarInformacion } from "./cargarInformaciom.js";
+import { agregarAlTablero, cargarInformacion } from "./cargarInformaciom.js";
 import { item_html } from "./html_elemento.js";
 
 function cargarTabla(tabla) {
@@ -25,6 +25,8 @@ function cargarTabla(tabla) {
         tabla_DOM.appendChild(elementHTML);
         let claseDelElemento = document.querySelector(`.${elemento.nombre}`)
         claseDelElemento.addEventListener("click", ()=>{cargarInformacion(elemento)});
+            let botonTablero = document.querySelector(`.btn-${elemento.nombre}`);
+            botonTablero.addEventListener("click", ()=>{agregarAlTablero(elemento)});
     });
 }
 

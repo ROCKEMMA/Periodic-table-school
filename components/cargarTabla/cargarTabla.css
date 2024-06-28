@@ -2,12 +2,15 @@
     width: 100%;
     max-width: 150rem;
     margin: 0 auto;
-
     display: grid;
     grid-template-columns: repeat(18,7.7rem);
     grid-template-rows: repeat(9,7.7rem);
     justify-content: center;
     gap: 0.5rem;
+    user-select: none; /* Para la mayoría de los navegadores modernos */
+    -webkit-user-select: none; /* Para navegadores basados en WebKit (Safari, Chrome) */
+    -moz-user-select: none; /* Para Firefox */
+    -ms-user-select: none; /* Para Internet Explorer y Edge */
 }
 .div-vacio {
     grid-column: 2/3;
@@ -189,8 +192,9 @@
 .button_agregar{
     background-color: white;
     position: absolute;
-    width: 1.6rem;
-    height: 1.7rem;
+    width: 2rem;
+    height: 2rem;
+    font-size: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -198,6 +202,12 @@
     right: -1rem;
     border-radius: 0.5rem;
     border: 1px solid black;
+    color: black;
+    cursor: pointer;
+    user-select: none; /* Para la mayoría de los navegadores modernos */
+    -webkit-user-select: none; /* Para navegadores basados en WebKit (Safari, Chrome) */
+    -moz-user-select: none; /* Para Firefox */
+    -ms-user-select: none; /* Para Internet Explorer y Edge */
 }
 .button_agregar:hover{
 
