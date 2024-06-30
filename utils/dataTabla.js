@@ -59,7 +59,7 @@ const tabla_periodica = [
         nombre:'Oxigeno',
         electrones: 8,
         serie:'no metales',
-        simbolo:'0',
+        simbolo:'O',
         masa: '12,0107 u',
         descubridor:'1773 Carl Wilhelm Scheele'
     },
