@@ -5,10 +5,14 @@
 }
 html {
     font-size: 10px;
+    font-family: monospace;
 }
-
+a {
+    text-decoration: none;
+    color: black;
+}
 #root {
     display: grid;
-    grid-template-rows: 6rem 75rem 300px 200px;
-    gap: 2rem;
+    grid-template-rows: 5rem 58rem 25rem 20rem;
+    gap: 1rem;
 }

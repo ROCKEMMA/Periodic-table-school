@@ -13,7 +13,7 @@ const item_html = (elemento) => {
     button_agregar.className = 'button_agregar';
     button_agregar.classList.add(`btn-${elemento.nombre}`);
     element.appendChild(button_agregar);
-    button_agregar.innerHTML='+'
+    button_agregar.innerHTML='+';
     
 
 

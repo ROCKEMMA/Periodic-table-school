@@ -27,12 +27,13 @@
 }
 
 .element {
-    background-color: #ffcc00;
     border: 1px solid #333;
     border-radius: 5px;
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    color: #333;
+
+    color: white;
+    transition: transform 0.3s ease-in-out, box-shadow 0.4s ease-in-out;
+    box-shadow: 0 0 0 transparent;
 
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -74,37 +75,24 @@
 /* no metales */
 .nometales{
     background-color: #e96612 ;
-    transition: transform 0.3s ease-in-out, box-shadow 0.4s ease-in-out;
-    box-shadow: 0 0 0 transparent;
 }
-
 .nometales:hover {
     transform: scale(1.25);
     box-shadow: 0 0 30px #e96612;
 }
 
-
-
 /* meatales alcainos */
 .metalesalcalinos{
-    background-color: #00203e   ;
-    color: white;
-    transition: transform 0.3s ease-in-out, box-shadow 0.4s ease-in-out;
-    box-shadow: 0 0 0 transparent;
-
+    background-color: #00203e;
 }
 .metalesalcalinos:hover {
     transform: scale(1.25);
     box-shadow: 0 0 30px #00203e;
 }
 
-
 /* meatales alcalino terreo */
-
 .metalesalcalinoterreos{
     background-color: #f9ac00;
-    transition: transform 0.3s ease-in-out, box-shadow 0.4s ease-in-out;
-    box-shadow: 0 0 0 transparent;
 }
 .metalesalcalinoterreos:hover {
     transform: scale(1.25);
@@ -213,4 +201,59 @@
 
     background-color: rgb(197, 192, 192);
 
+}
+
+
+/* DISEÑO DE LA MOLÉCULA */
+
+.molecula {
+    border-radius: 100%;
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tamanno1 {
+    width: 5rem;
+    height: 5rem;
+}
+.tamanno2 {
+    width: 6rem;
+    height: 6rem;
+}
+.tamanno3 {
+    width: 7rem;
+    height: 7rem;
+}
+.tamanno4 {
+    width: 8rem;
+    height: 8rem;
+}
+.tamanno5 {
+    width: 9rem;
+    height: 9rem;
+}
+.tamanno6 {
+    width: 10rem;
+    height: 10rem;
+}
+.tamanno7 {
+    width: 11rem;
+    height: 11rem;
+}
+.tamanno8 {
+    width: 12rem;
+    height: 12rem;
+}
+.tamanno9 {
+    width: 13rem;
+    height: 13rem;
+}
+.tamanno10 {
+    width: 14rem;
+    height: 14rem;
 }

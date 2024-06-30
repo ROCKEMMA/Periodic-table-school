@@ -1,7 +1,4 @@
 #header {
-
-    font-size: 20px;
-
     background-color: white;
 
     display: flex;
@@ -9,29 +6,28 @@
     justify-content: space-between;
     align-items: center;
 }
-
-
-h1 {
-   width: 100px;
-   height: 100px;
+#header .nombre-aplicacion {
+    font-size: 1.7rem;
+    font-weight: 600;
 }
-
-nav ul {
+#header nav {
+    font-size: 1.4rem;
+    
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+#header nav ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
+    color: #0f0f0f;
 
-nav ul li {
-    display: inline;
-    margin-left: 20px;
+    display: flex;
+    gap: 2rem;
 }
-
-nav ul li a {
+#header nav a {
     text-decoration: none;
-    color: #333;
-    font-weight: bold;
 }
+
 
 
 

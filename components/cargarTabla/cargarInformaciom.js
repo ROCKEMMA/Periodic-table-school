@@ -1,5 +1,5 @@
 import { listaTablero } from "../../utils/listaVacia.js";
-import { item_html } from "./html_elemento.js";
+import { htmlMolecula } from "./html_molecula.js";
 function cargarInformacion(nombreElemento) {
     let divElementoCentral = document.querySelector(".informacion");
     
@@ -9,14 +9,16 @@ function cargarInformacion(nombreElemento) {
     // Crear el nuevo contenido
     let div_elemento = document.createElement("div");
     div_elemento.className = "estiloElemento";
+
     div_elemento.innerHTML = `
-    <div><strong>Símbolo:</strong>${nombreElemento.simbolo}</div>
-    <div><strong>Electrones:</strong> ${nombreElemento.electrones}</div>
-    <div><strong>Masa:</strong> ${nombreElemento.masa}</div>
-    <div><strong>Nombre:</strong> ${nombreElemento.nombre}</div>
-    <div><strong>Serie:</strong> ${nombreElemento.serie}</div>
-    <div><strong>Descubridor:</strong> ${nombreElemento.descubridor}</div>
+        <div><strong>Símbolo:</strong>${nombreElemento.simbolo}</div>
+        <div><strong>Electrones:</strong> ${nombreElemento.electrones}</div>
+        <div><strong>Masa:</strong> ${nombreElemento.masa}</div>
+        <div><strong>Nombre:</strong> ${nombreElemento.nombre}</div>
+        <div><strong>Serie:</strong> ${nombreElemento.serie}</div>
+        <div><strong>Descubridor:</strong> ${nombreElemento.descubridor}</div>
     `;
+    
     divElementoCentral.appendChild(div_elemento);
     
     // Verificar si el link ya existe
@@ -30,21 +32,17 @@ function cargarInformacion(nombreElemento) {
 
 
 function agregarAlTablero(nombreElemento){
-        listaTablero.push(nombreElemento);
-        console.log(listaTablero);
-        actualizarMoleculaC(listaTablero)
-        
+    listaTablero.push(nombreElemento);
+    actualizarMoleculaC(listaTablero);
 }
 
 function actualizarMoleculaC(listaTablero){
-
     let molecula = document.querySelector(".moleculaC");
     molecula.innerHTML = ""
         listaTablero.forEach(element => {
-            molecula.appendChild(item_html(element))
-            
-            
-        });
+            molecula.appendChild(htmlMolecula(element))
+    });
 }
+
 export { agregarAlTablero,  cargarInformacion}
 
