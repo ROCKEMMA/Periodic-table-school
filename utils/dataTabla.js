@@ -172,7 +172,7 @@ const tabla_periodica = [
         electrones: 22,
         serie:'metales de transicion',
         simbolo:'Ti',
-        masa: '47,867(1) u',
+        masa: '47,867 u',
         descubridor:'1791 William Gregor en una mina de Cornualles, Gran Bretaña, y en 1795 por Martin Heinrich Klaproth'
     },
     {
