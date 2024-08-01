@@ -11,12 +11,10 @@ function cargarInformacion(nombreElemento) {
     div_elemento.className = "estiloElemento";
 
     div_elemento.innerHTML = `
-        <div><strong>Símbolo:</strong>${nombreElemento.simbolo}</div>
-        <div><strong>Electrones:</strong> ${nombreElemento.electrones}</div>
-        <div><strong>Masa:</strong> ${nombreElemento.masa}</div>
-        <div><strong>Nombre:</strong> ${nombreElemento.nombre}</div>
-        <div><strong>Serie:</strong> ${nombreElemento.serie}</div>
-        <div><strong>Descubridor:</strong> ${nombreElemento.descubridor}</div>
+        <div class="estiloSimbolo"><strong class="estiloElemento1"></strong>${nombreElemento.simbolo}</div>
+        <div class="estiloSimbolo2"><strong></strong> ${nombreElemento.electrones}</div>
+        <div class="estiloSimbolo3"><strong></strong> ${nombreElemento.masa}</div>
+        <div class="estiloSimbolo4"><strong></strong> ${nombreElemento.nombre}</div>
     `;
     
     divElementoCentral.appendChild(div_elemento);
